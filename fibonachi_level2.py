@@ -7,10 +7,7 @@
 """
 
 def fibo(n):
-    res = [1, 1, 1]
-    for i in range(3, n):
-        res.append(res[i-2]+res[i-1]+res[i-3])
-    return res[-1]
+   ...
 
 print(fibo(5)) # 5
 print(fibo(80)) # 351892690889787253855
